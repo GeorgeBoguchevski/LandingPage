@@ -1,7 +1,9 @@
+.body{
+    background: linear-gradient(135deg, #F9F9F7,  #414140);
+}
 .h2{
     font-size: 2.5rem;
 }
-
 
 .p{
     font-size: 1.2rem;
