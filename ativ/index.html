@@ -9,11 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body">
     <!-- Cabeçalho -->
-    <header class="text-white py-3"></header>
+    <header class="text-black py-3"></header>
         <div class="container d-flex justify-content-between align-items-center">
-            <h1 class="m-0"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M146.67-160q-27 0-46.84-19.83Q80-199.67 80-226.67v-506.66q0-27 19.83-46.84Q119.67-800 146.67-800h666.66q27 0 46.84 19.83Q880-760.33 880-733.33v506.66q0 27-19.83 46.84Q840.33-160 813.33-160H146.67ZM480-454.67 146.67-670v443.33h666.66V-670L480-454.67Zm0-66.66 330.67-212H150l330 212ZM146.67-670v-63.33V-226.67-670Z"/></svg> Vagas diponíveis na Program Company.</br> <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M146.67-160q-27 0-46.84-19.83Q80-199.67 80-226.67v-506.66q0-27 19.83-46.84Q119.67-800 146.67-800h666.66q27 0 46.84 19.83Q880-760.33 880-733.33v506.66q0 27-19.83 46.84Q840.33-160 813.33-160H146.67Zm0-66.67h666.66v-424H146.67v424ZM300-288l-46.67-46.67 103-104-104-104L300-589.33l150.67 150.66L300-288Zm186.67 2.67V-352h226.66v66.67H486.67Z"/></svg><font face="Playwrite Italia Moderna"> P. C. </font></h1>
+            <h1 class="m-0"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M146.67-160q-27 0-46.84-19.83Q80-199.67 80-226.67v-506.66q0-27 19.83-46.84Q119.67-800 146.67-800h666.66q27 0 46.84 19.83Q880-760.33 880-733.33v506.66q0 27-19.83 46.84Q840.33-160 813.33-160H146.67ZM480-454.67 146.67-670v443.33h666.66V-670L480-454.67Zm0-66.66 330.67-212H150l330 212ZM146.67-670v-63.33V-226.67-670Z"/></svg> Vagas diponíveis na Program Company.</br> <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M146.67-160q-27 0-46.84-19.83Q80-199.67 80-226.67v-506.66q0-27 19.83-46.84Q119.67-800 146.67-800h666.66q27 0 46.84 19.83Q880-760.33 880-733.33v506.66q0 27-19.83 46.84Q840.33-160 813.33-160H146.67Zm0-66.67h666.66v-424H146.67v424ZM300-288l-46.67-46.67 103-104-104-104L300-589.33l150.67 150.66L300-288Zm186.67 2.67V-352h226.66v66.67H486.67Z"/></svg><font face="Playwrite Italia Moderna">  P. C.</p> </font></h1>
         
         <a href="#about" class="btn btn-primary btn-lg mt-2" >Sobre as Vagas</a>
         <a href="#about1" class="btn btn-primary btn-lg mt-2" >Habilidades necessárias</a>
@@ -26,51 +26,44 @@
 
     <!--Sobre as Vagas-->
     <section id="about" class="py-5">
-        <div class="container">
-            <img src="./imagens/img-01.jpg" alt="Vaga de Programador" style="width: 250px; height: 300px;">
-            <img src="./imagens/img-02.jpg" alt="Vaga de segurança" style="width: 400px; height: 300px;">
-            <p>       </p>
-            <div class="row align-items-right">
-                <div class="col-md-6">
-                    <h2 class="fw-bold">Procura-se: Programador e Guarda Noturno</h2>
-                    <p class="lead">Tem conhecimentos em  linguagens de programação? ou tem habilidades de segurança e vigilância noturna? Então uma destas vagas pode ser sua. Basta apertar em “Join now!” e mande seu currículo</p>
-                </br>
-                    <a href="#contact" class="btn btn-primary btn-lg mt-3" >Join now!</a>
-                </div>
+        <div class="container d-flex align-items-center">
+            <img  src="./imagens/img-01.jpg" alt="Imagem ilustrativa de vaga de Programador" style="width: 250px; height: 300px;">
+            <img  src="./imagens/img-02.jpg" alt="Imagem ilustrativa de vaga de segurança" style="width: 400px; height: 300px;" class="ms-3">
+            <div class="ms-4">
+                <h2 class="fw-bold">Procura-se: Programador e Guarda Noturno</h2>
+                <p class="lead">Tem conhecimentos em  linguagens de programação? ou tem habilidades de segurança e vigilância noturna? Então uma destas vagas pode ser sua. Basta apertar em “Join now!” e mande seu currículo</p>
+            </br>
+                <a href="#contact" class="btn btn-primary btn-lg mt-3" >Join now!</a>
             </div>
        </div>
     </section>
 
     <!--Habilidades necessárias-->
     <section id="about1" class="py-5">
-        <div class="container">
+        <div class="container d-flex justify-content-between">
             <div class="col-md-6">
-                <div class="paragraph">
-                    <h2 class="card-tittle">Programador:</h2>
-                    <p class="lead">Formatação de Documentos;</br>
-                        Criação de Índices;</br>
-                        Referências cruzadas;</br>
-                        Proteção de Documentos;</br>
-                        Conhecimentos em  Python ou Java;</br>
-                        Conhecimentos em HTML. </p>
-                </div>
+                <h2 class="card-tittle">Programador:</h2>
+                <ul class="lead">
+                    <li>Formatação de Documentos;</li>
+                    <li>Criação de Índices;</li>
+                    <li>Referências cruzadas;</li>
+                    <li>Proteção de Documentos;</li>
+                    <li>Conhecimentos em  Python ou Java;</li>
+                    <li>Conhecimentos em HTML. </li>
+                </ul>
             </div>
-    </div>
-    <div id="about2" class="py-5">
-        <div class="container">
             <div class="col-md-6">
-                <div class="paragraph">
-                    <h2 class="card-tittle">Segurança:</h2>
-                    <p class="lead">Vigilância e observação;</br>
-                        Resposta a emergências;</br>
-                        Tecnologia da segurança;</br>
-                        Condicionamento Físico;</br>
-                        Resoluções de conflito;</br>
-                        Conhecimento dos PS. </p>
-                </div>
+                <h2 class="card-tittle">Guarda noturno</h2>
+                <ul class="lead">
+                    <li>Vigilância e observação;</li>
+                    <li>Restosta a emergências;</li>
+                    <li>Tecnologia da segurança;</li>
+                    <li>Condicionamento Físico;</li>
+                    <li>Resoluções de conflito;</li>
+                    <li>Conhecimento dos PS. </li>
+                </ul>
             </div>
         </div>
-    </div>
     </section>
 
     <!--contate-nos-->
@@ -92,8 +85,12 @@
                         <form action="/upload" method="post" enctype="multipart/form-data">
                             <input type="file" id="fileUpload" name="fileUpload">
                             <br><br>
-                        <button type="submit" class="btn btn-primary w-100" href="#contact" class="btn btn-primary btn-lg mt-3"> Enviar</button><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e3e3e3">  Enviar </button>
+                        <button type="submit" class="btn btn-primary w-100" href="#contact" class="btn btn-primary btn-lg mt-3"> 📩Enviar</button><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e3e3e3">  Enviar </button>
                         </form>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Tem alguma melhoria a nos falar? Digite aqui:</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Digite sua mensagem"></textarea>
+                    </div>
                 </form>
             </div>
         </div>
